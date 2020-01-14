@@ -6,7 +6,7 @@
     "language",
     "grammar"
   ],
-  "repository": "https://github.com/atom/language-series",
+  "repository": "https://github.com/ark-1/atom-language-series",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
