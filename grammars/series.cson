@@ -9,10 +9,17 @@ fileTypes: [
   'series'
 ]
 scopes:
-    'name2': 'entity.name.enum',
-    'name1': 'keyword',
-    'name0': 'entity.name.function',
-    'iso': 'constant.language',
-    'date_description': 'comment',
-    'comment_not_date': 'string.unquoted',
+    'name0': 'entity.name.type.class'
+    'name2': 'keyword'
+    'name1': 'entity.name.function'
+    'iso': 'constant.language'
+    'date_description': 'comment'
+    'comment_not_date': 'string.unquoted'
     'any_comment': 'string.unquoted'
+
+folds: [{
+   type: 'block'
+   # end:
+   #     type: 'n'
+   #     index: -1
+}]

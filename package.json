@@ -1,6 +1,6 @@
 {
   "name": "language-series",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Adds support for 'series' files",
   "keywords": [
     "language",
@@ -10,5 +10,12 @@
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "tree-sitter-series": "^0.0.4"
+  },
+  "devDependencies": {
+    "electron-rebuild": "^1.8.8",
+    "nan": "^2.14.0"
   }
 }
