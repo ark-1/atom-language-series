@@ -1,6 +1,6 @@
 {
   "name": "language-series",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Adds support for 'series' files",
   "keywords": [
     "language",
